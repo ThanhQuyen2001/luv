@@ -21,7 +21,7 @@ let today = new Date();
 let dayLove = new Date("2022/3/29")
 let day = get_day_of_time(dayLove,today)
 let days = document.querySelector(".days");
-days.innerHTML = day +" ngày"
+days.innerHTML = day +" days"
 
 let quyen = document.querySelector(".person1")
 quyen.addEventListener('click',function(){
